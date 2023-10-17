@@ -1,4 +1,5 @@
 'use client';
+import { Icons } from '@/assets/Icons';
 import Link from 'next/link';
 
 export const Navigation = [
@@ -13,7 +14,7 @@ export default function Navbar() {
         <div className="flex lg:flex-1">
           <Link href="#">
             <span className="sr-only">Your Company</span>
-            {/* Logo */}
+            <Icons.logo className="w-16 h-16 my-2" />
           </Link>
         </div>
         <div className="flex gap-x-4 md:gap-x-12">
