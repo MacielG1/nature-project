@@ -4,12 +4,6 @@ import React from 'react';
 
 const animals = [
   {
-    name: 'Lion',
-    description:
-      'The lion, often referred to as the "king of the jungle," is a symbol of strength and majesty in the animal kingdom.',
-    icon: <AnimalsIcons.lion className="w-7 h-7" />,
-  },
-  {
     name: 'Elephant',
     description:
       'Elephants are the largest land mammals, known for their intelligence, social bonds, and significance in conservation efforts.',
@@ -25,13 +19,19 @@ const animals = [
   {
     name: 'Giraffe',
     description:
-      "Giraffes are the world's tallest land animals, recognized for their long necks, graceful appearance, and herbivorous diet.",
+      "Giraffes are the world's tallest land animals, recognized for their long necks, graceful appearance and herbivorous diet.",
     icon: <AnimalsIcons.giraffe className="w-7 h-7" />,
+  },
+  {
+    name: 'Lion',
+    description:
+      'The lion, often referred to as the "king of the jungle," is a symbol of strength and majesty in the animal kingdom.',
+    icon: <AnimalsIcons.lion className="w-7 h-7" />,
   },
   {
     name: 'Hippopotamus',
     description:
-      'Hippos are large, semi-aquatic mammals known for their massive size, territorial behavior, and powerful jaws.',
+      'Hippos are large, semi-aquatic mammals known for their massive size, territorial behavior and powerful jaws.',
     icon: <AnimalsIcons.hippopotamus className="w-7 h-7" />,
   },
   {
@@ -49,7 +49,7 @@ const animals = [
   {
     name: 'Zebra',
     description:
-      'Zebras are known for their distinctive black and white stripes, and they are native to Africa.',
+      'Zebras are known for their distinctive black and white stripes and they are native to Africa.',
     icon: <AnimalsIcons.zebra className="w-7 h-7" />,
   },
 ];
@@ -59,7 +59,7 @@ export default function Animals() {
     <div className="bg-white py-8 sm:py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl py-16 text-center">
-          Amazing Animals found in Our Nature
+          Wonderful animals found in our nature
         </h2>
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-4">
           <dl className="col-span-4 grid grid-cols-1 gap-x-8 gap-y-16 sm:grid-cols-2">
