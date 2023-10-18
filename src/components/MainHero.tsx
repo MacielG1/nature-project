@@ -28,22 +28,22 @@ export default function MainHero() {
               look at the environment and its beauty.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              {/* <Link
-                  href="https://github.com/MacielG1" // change to project repo
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Button className="dark:bg-green-500 text-lg py-6 px-8 dark:hover:bg-green-600 rounded-2xl text-black font-semibold duration-200 transition">
-                    GitHub
-                  </Button>
-                </Link> */}
               <Link
-                href="https://github.com/MacielG1" // change to project repo
+                href="https://github.com/MacielG1/nature-project" // change to project repo
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="dark:bg-green-500 text-lg py-6 px-8 dark:hover:bg-green-600 rounded-2xl text-black font-semibold duration-200 transition">
+                  GitHub
+                </Button>
+              </Link>
+              {/* <Link
+                href="https://github.com/MacielG1/nature-project"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button variant="link">GitHub Project</Button>
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ import Button from './UI/Button';
 
 export default function DonateTiles() {
   return (
-    <section className="overflow-hidden bg-white pt-32 pb-10 mx-5">
+    <section className="overflow-hidden bg-white pt-32 pb-28 mx-5">
       <div className="mx-auto max-w-6xl px-6 lg:flex lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8">
           <div className=" lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8 flex justify-center  items-center flex-col">
@@ -26,7 +26,7 @@ export default function DonateTiles() {
               rel="noopener noreferrer"
               href="https://www.globalgiving.org"
             >
-              <Button className="dark:bg-green-500 text-lg mt-3 py-6 px-8 dark:hover:bg-green-600 rounded-2xl text-black font-semibold">
+              <Button className="dark:bg-green-500 text-lg mt-8 py-6 px-8 dark:hover:bg-green-600 rounded-2xl text-black font-semibold">
                 Donate
               </Button>
             </Link>
