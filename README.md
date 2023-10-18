@@ -11,7 +11,8 @@ This website is dedicated to highlight the value and beauty of nature and animal
 This project is built using the following technologies:
 
 - **Next.js**: Next.js is a React framework that helps us build web applications.
-- **Tailwind CSS**: We use Tailwind CSS to create a clean and responsive user interface.
+- **TypeScript**: TypeScript is used to add static typing to JavaScript, making it easier to catch errors before runtime.
+- **Tailwind CSS**: Tailwind CSS is used to create a clean and responsive user interface.
 
 ## Features
 
