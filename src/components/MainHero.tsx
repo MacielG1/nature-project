@@ -18,9 +18,9 @@ export default function MainHero() {
       >
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
-            <h1 className="text-4xl font-bold tracking-wide pt-16 text-neutral-950 sm:text-6xl">
-              <span className="text-green-600">Nature</span> Connecting with the
-              World Around Us
+            <h1 className="text-4xl text-balance flex flex-col font-bold tracking-wide pt-16 text-neutral-950 sm:text-6xl">
+              <span className="text-green-600">Nature</span>
+              <span>Connecting with the World Around Us</span>
             </h1>
             <p className="mt-6 text-lg leading-7 text-neutral-300">
               Discover the wonders of nature, from incredible landscapes to the
