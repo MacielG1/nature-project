@@ -24,7 +24,7 @@ export default function DonateTiles() {
             <Link
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.globalgiving.org"
+              href="https://www.globalgiving.org/search/?size=25&nextPage=1&sortField=sortorder&keywords=nature&loadAllResults=true"
             >
               <Button className="dark:bg-green-500 text-lg mt-8 py-6 px-8 dark:hover:bg-green-600 rounded-2xl text-black font-semibold">
                 Donate
